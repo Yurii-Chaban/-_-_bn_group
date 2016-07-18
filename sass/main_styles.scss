@@ -701,3 +701,23 @@ footer {
   }
 }
 /*-----------------------------------*/
+@media (max-width: 320px) {
+  .sob-podrob {
+    .arrow-back {
+      margin: 18px 0 0 0;
+    }
+  }
+}
+/*--------------------------------------*/
+.activitis-page {
+  .img-container {
+    width: 100%;
+    margin: 22px auto 20px;
+    text-align: center;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+/*--------------------------------------*/

@@ -778,3 +778,23 @@ footer .copyright a:hover {
 }
 
 /*-----------------------------------*/
+@media (max-width: 320px) {
+  /* line 706, ../sass/main_styles.scss */
+  .sob-podrob .arrow-back {
+    margin: 18px 0 0 0;
+  }
+}
+/*--------------------------------------*/
+/* line 713, ../sass/main_styles.scss */
+.activitis-page .img-container {
+  width: 100%;
+  margin: 22px auto 20px;
+  text-align: center;
+}
+/* line 717, ../sass/main_styles.scss */
+.activitis-page .img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*--------------------------------------*/
