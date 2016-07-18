@@ -50,11 +50,11 @@
 }
 .swiper-container-android .swiper-slide,
 .swiper-wrapper {
-  -webkit-transform: translate3d(0px, 0, 0);
-  -moz-transform: translate3d(0px, 0, 0);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate3d(0px, 0, 0);
-  transform: translate3d(0px, 0, 0);
+  -webkit-transform: class3d(0px, 0, 0);
+  -moz-transform: class3d(0px, 0, 0);
+  -o-transform: class(0px, 0px);
+  -ms-transform: class3d(0px, 0, 0);
+  transform: class3d(0px, 0, 0);
 }
 .swiper-container-multirow > .swiper-wrapper {
   -webkit-box-lines: multiple;
@@ -271,10 +271,10 @@
   -moz-transition: 300ms;
   -o-transition: 300ms;
   transition: 300ms;
-  -webkit-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+  -webkit-transform: class3d(0, 0, 0);
+  -ms-transform: class3d(0, 0, 0);
+  -o-transform: class3d(0, 0, 0);
+  transform: class3d(0, 0, 0);
   z-index: 10;
 }
 .swiper-pagination.swiper-pagination-hidden {
@@ -327,11 +327,11 @@ button.swiper-pagination-bullet {
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
   top: 50%;
-  -webkit-transform: translate3d(0px, -50%, 0);
-  -moz-transform: translate3d(0px, -50%, 0);
-  -o-transform: translate(0px, -50%);
-  -ms-transform: translate3d(0px, -50%, 0);
-  transform: translate3d(0px, -50%, 0);
+  -webkit-transform: class3d(0px, -50%, 0);
+  -moz-transform: class3d(0px, -50%, 0);
+  -o-transform: class(0px, -50%);
+  -ms-transform: class3d(0px, -50%, 0);
+  transform: class3d(0px, -50%, 0);
 }
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 5px 0;
