@@ -1125,3 +1125,157 @@ footer .copyright a:hover {
 }
 
 /*--------------------------------------*/
+/*--------------------------------------*/
+/* line 972, ../sass/main_styles.scss */
+.contact-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 975, ../sass/main_styles.scss */
+.contact-page .address,
+.contact-page .phone {
+  color: #818080;
+  font: 18px / 22px 'PT Sans', sans-serif;
+  font-style: italic;
+}
+/* line 980, ../sass/main_styles.scss */
+.contact-page .address span,
+.contact-page .phone span {
+  display: block;
+}
+/* line 984, ../sass/main_styles.scss */
+.contact-page .address {
+  margin: 24px auto 20px;
+}
+/* line 987, ../sass/main_styles.scss */
+.contact-page .mapWrapper {
+  position: relative;
+  padding-bottom: 65.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 17px auto 15px;
+}
+/* line 241, ../sass/main_styles.scss */
+.contact-page .mapWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 991, ../sass/main_styles.scss */
+.contact-page .map-link {
+  float: right;
+  margin: 0 0 15px 0;
+  color: #370909;
+  font: 18px / 23px 'PTSans', sans-serif;
+  font-style: italic;
+}
+/* line 998, ../sass/main_styles.scss */
+.contact-page .feedbck-form {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto;
+  border-top: 1px dotted #b5afac;
+}
+/* line 1005, ../sass/main_styles.scss */
+.contact-page .feedbck-form .form-title {
+  margin: 25px auto 22px;
+  text-align: center;
+  color: #370909;
+  font: 22px / 23px 'PT Sans', sans-serif;
+  font-style: italic;
+}
+/* line 1012, ../sass/main_styles.scss */
+.contact-page .feedbck-form ::-webkit-input-placeholder {
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 1017, ../sass/main_styles.scss */
+.contact-page .feedbck-form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 1022, ../sass/main_styles.scss */
+.contact-page .feedbck-form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 1027, ../sass/main_styles.scss */
+.contact-page .feedbck-form :-ms-input-placeholder {
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 1031, ../sass/main_styles.scss */
+.contact-page .feedbck-form .name,
+.contact-page .feedbck-form .phone,
+.contact-page .feedbck-form .email {
+  display: block;
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 12px auto;
+  padding-left: 12px;
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e1ddda;
+  outline: none;
+}
+/* line 1049, ../sass/main_styles.scss */
+.contact-page .feedbck-form .message {
+  display: block;
+  width: 100%;
+  height: 181px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-left: 12px;
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  border: 1px solid #e1ddda;
+}
+/* line 1065, ../sass/main_styles.scss */
+.contact-page .feedbck-form .submit-button {
+  display: block;
+  float: right;
+  width: 128px;
+  height: 35px;
+  margin: 10px 0 33px;
+  cursor: pointer;
+  background-color: #e1ddda;
+  border: 1px solid #e1ddda;
+  border-radius: 10px;
+  outline: none;
+}
+/* line 1076, ../sass/main_styles.scss */
+.contact-page .feedbck-form .submit-button span {
+  color: #370909;
+  font: 18px / 30px 'PTSans', sans-serif;
+  font-style: italic;
+}
+/* line 1081, ../sass/main_styles.scss */
+.contact-page .feedbck-form .submit-button img {
+  float: right;
+  max-width: 100%;
+  height: auto;
+  margin: 8px 5px 0 0;
+}
+
+/*--------------------------------------*/

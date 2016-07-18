@@ -968,3 +968,123 @@ footer {
   }
 }
 /*--------------------------------------*/
+/*--------------------------------------*/
+.contact-page {
+  @include site-container;
+
+  .address,
+  .phone {
+    color: #818080;
+    font: 18px / 22px 'PT Sans', sans-serif;
+    font-style: italic;
+    span {
+      display: block;
+    }
+  }
+  .address {
+    margin: 24px auto 20px;
+  }
+  .mapWrapper {
+    @include mapWrapper;
+    margin: 17px auto 15px;
+  }
+  .map-link {
+    float: right;
+    margin: 0 0 15px 0;
+    color: #370909;
+    font: 18px / 23px 'PTSans', sans-serif;
+    font-style: italic;
+  }
+  .feedbck-form {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: 1px dotted #b5afac;
+
+    .form-title {
+      margin: 25px auto 22px;
+      text-align: center;
+      color: #370909;
+      font: 22px / 23px 'PT Sans', sans-serif;
+      font-style: italic;
+    }
+    ::-webkit-input-placeholder {
+      color: #370909;
+      font: 400 18px / 23px 'Arial', sans-serif;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+      color: #370909;
+      font: 400 18px / 23px 'Arial', sans-serif;  
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+      color: #370909;
+      font: 400 18px / 23px 'Arial', sans-serif;  
+    }
+
+    :-ms-input-placeholder {  
+      color: #370909;
+      font: 400 18px / 23px 'Arial', sans-serif;  
+    }
+    .name,
+    .phone,
+    .email {
+      display: block;
+      width: 100%;
+      height: 35px;
+      box-sizing: border-box;
+      overflow: hidden;
+      margin: 12px auto;
+      padding-left: 12px;
+      color: #370909;
+      font: 400 18px / 23px 'Arial', sans-serif;
+      border: none;
+      background-color: white;
+      border-radius: 10px;
+      border: 1px solid #e1ddda;
+      outline: none;
+    }
+    .message {
+      display: block;
+      width: 100%;
+      height: 181px;
+      box-sizing: border-box;
+      overflow: hidden;
+      padding-left: 12px;
+      color: #370909;
+      font: 400 18px / 23px 'Arial', sans-serif;
+      background-color: white;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      resize: none;
+      border: 1px solid #e1ddda;
+    }
+    .submit-button {
+      display: block;
+      float: right;
+      width: 128px;
+      height: 35px;
+      margin: 10px 0 33px;
+      cursor: pointer;
+      background-color: #e1ddda;
+      border: 1px solid #e1ddda;
+      border-radius: 10px;
+      outline: none;
+      span {
+        color: #370909;
+        font: 18px / 30px 'PTSans', sans-serif;
+        font-style: italic;
+      }
+      img {
+        float: right;
+        max-width: 100%;
+        height: auto;
+        margin: 8px 5px 0 0;
+      }
+    }
+  }
+}
+/*--------------------------------------*/
