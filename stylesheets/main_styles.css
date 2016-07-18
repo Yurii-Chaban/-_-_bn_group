@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -66,3 +62,627 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+@font-face {
+  font-family: 'Georgia';
+  src: url("../resources/Georgia/Georgia.woff") format("woff"), url("../resources/Georgia/Georgia.ttf") format("truetype"), url("../resources/Georgia/Georgia.svg#Georgia") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url("../resources/Georgia/georgia.eot");
+  src: url("../resources/Georgia/georgia.woff2") format("woff2"), url("../resources/Georgia/georgia.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url("../resources/Georgia/Georgia-Bold.woff") format("woff"), url("../resources/Georgia/Georgia-Bold.ttf") format("truetype"), url("../resources/Georgia/Georgia-Bold.svg#Georgia-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url("../resources/Georgia/georgiab.eot");
+  src: url("../resources/Georgia/georgiab.woff2") format("woff2"), url("../resources/Georgia/georgiab.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url("../resources/Georgia/Georgia-Italic.woff") format("woff"), url("../resources/Georgia/Georgia-Italic.ttf") format("truetype"), url("../resources/Georgia/Georgia-Italic.svg#Georgia-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url("../resources/Georgia/georgiai.eot");
+  src: url("../resources/Georgia/georgiai.woff2") format("woff2"), url("../resources/Georgia/georgiai.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url("../resources/Georgia/Georgia-BoldItalic.woff") format("woff"), url("../resources/Georgia/Georgia-BoldItalic.ttf") format("truetype"), url("../resources/Georgia/Georgia-BoldItalic.svg#Georgia-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url("../resources/Georgia/georgiaz.eot");
+  src: url("../resources/Georgia/georgiaz.woff2") format("woff2"), url("../resources/Georgia/georgiaz.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTN57F.eot");
+  src: url("../resources/PTSans/PTN57F.woff2") format("woff2"), url("../resources/PTSans/PTN57F.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTSans-Narrow.woff") format("woff"), url("../resources/PTSans/PTSans-Narrow.ttf") format("truetype"), url("../resources/PTSans/PTSans-Narrow.svg#PTSans-Narrow") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTN77F.eot");
+  src: url("../resources/PTSans/PTN77F.woff2") format("woff2"), url("../resources/PTSans/PTN77F.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTSans-NarrowBold.woff") format("woff"), url("../resources/PTSans/PTSans-NarrowBold.ttf") format("truetype"), url("../resources/PTSans/PTSans-NarrowBold.svg#PTSans-NarrowBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTS55F.eot");
+  src: url("../resources/PTSans/PTS55F.woff2") format("woff2"), url("../resources/PTSans/PTS55F.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTSans-Regular.woff") format("woff"), url("../resources/PTSans/PTSans-Regular.ttf") format("truetype"), url("../resources/PTSans/PTSans-Regular.svg#PTSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTS76F.eot");
+  src: url("../resources/PTSans/PTS76F.woff2") format("woff2"), url("../resources/PTSans/PTS76F.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTSans-BoldItalic.woff") format("woff"), url("../resources/PTSans/PTSans-BoldItalic.ttf") format("truetype"), url("../resources/PTSans/PTSans-BoldItalic.svg#PTSans-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTS75F.eot");
+  src: url("../resources/PTSans/PTS75F.woff2") format("woff2"), url("../resources/PTSans/PTS75F.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url("../resources/PTSans/PTSans-Bold.woff") format("woff"), url("../resources/PTSans/PTSans-Bold.ttf") format("truetype"), url("../resources/PTSans/PTSans-Bold.svg#PTSans-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arial';
+  src: url("../resources/Arial/ArialMT.woff") format("woff"), url("../resources/Arial/ArialMT.ttf") format("truetype"), url("../resources/Arial/ArialMT.svg#ArialMT") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arial';
+  src: url("../resources/Arial/arial.eot");
+  src: url("../resources/Arial/arial.woff2") format("woff2"), url("../resources/Arial/arial.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 184, ../sass/main_styles.scss */
+body {
+  font-family: 'PTSans', 'Georgia', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background: #fff;
+}
+
+/* line 267, ../sass/main_styles.scss */
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* line 274, ../sass/main_styles.scss */
+a {
+  text-decoration: none;
+}
+
+/*---------------------------------------*/
+/* line 278, ../sass/main_styles.scss */
+header {
+  height: 50px;
+  padding: 1px 0 6px 0;
+  background-color: white;
+  border-top: 3px solid #ffa800;
+  border-bottom: 1px solid #e1dddb;
+}
+/* line 285, ../sass/main_styles.scss */
+header .wrapper {
+  padding: 0 10px;
+}
+
+/* line 289, ../sass/main_styles.scss */
+.dropdovn-menu-desctop,
+.dropdown-menu-desctop-main {
+  display: none;
+}
+
+/* line 293, ../sass/main_styles.scss */
+.dropdovn-menu-mobile {
+  position: relative;
+}
+/* line 295, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu {
+  display: block;
+  position: fixed;
+  list-style: none;
+  padding: 35px 0 10px 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 306px;
+  background-color: #f2eeeb;
+  height: auto;
+  top: 0;
+  left: -350px;
+  transition: left .2s;
+  z-index: 999;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+/* line 311, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu li {
+  display: block;
+  width: 100%;
+  height: 43px;
+  margin: 0 0 0 20px;
+  text-align: left;
+  line-height: 43px;
+  vertical-align: middle;
+}
+/* line 320, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #8f8681;
+  font: 400 22px / 40px 'Arial', sans-serif;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 328, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu li a:hover {
+  color: #f27935;
+}
+/* line 332, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu li a.active {
+  color: #f27935;
+}
+/* line 336, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu .language-select {
+  position: relative;
+  overflow: hidden;
+  margin-left: 0;
+  padding-left: 20px;
+}
+/* line 341, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu .language-select:after {
+  position: absolute;
+  content: "";
+  width: 1000%;
+  height: 1px;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+}
+/* line 350, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu .language-select a, .dropdovn-menu-mobile .hidden-menu .language-select span {
+  display: inline-block;
+  width: auto;
+  color: #010101;
+  font: 400 22px / 30px 'Arial', sans-serif;
+}
+/* line 358, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu-ticker {
+  display: none;
+}
+/* line 361, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .btn-menu {
+  color: #fff;
+  background-color: none;
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 9999;
+  width: 22px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+/* line 375, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .btn-menu span {
+  display: block;
+  height: 2px;
+  background-color: #8f8681;
+  margin: 3px 0 0;
+  transition: all .1s linear .23s;
+  border-radius: 10px;
+  position: relative;
+}
+/* line 384, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .btn-menu span.first {
+  margin-top: 0;
+}
+/* line 387, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu {
+  position: fixed;
+  left: 260px;
+  top: 15px;
+}
+/* line 392, ../sass/main_styles.scss */
+.dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+
+/*logo*/
+/* line 398, ../sass/main_styles.scss */
+.logo {
+  width: 55px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  margin: 0 0 0 16%;
+  text-align: center;
+}
+/* line 406, ../sass/main_styles.scss */
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 411, ../sass/main_styles.scss */
+.logo-sign {
+  float: left;
+  color: #370909;
+  font: 400 13px / 14px 'Georgia', sans-serif;
+  margin: 25px 0 0 6px;
+  overflow: hidden;
+}
+
+/* line 418, ../sass/main_styles.scss */
+.info-button {
+  float: left;
+  margin: 15px 0 0 0;
+  overflow: hidden;
+}
+
+/*dropdown phone*/
+/* line 424, ../sass/main_styles.scss */
+.call-us-block {
+  float: right;
+  margin: 0;
+  line-height: 33px;
+  vertical-align: middle;
+}
+/* line 430, ../sass/main_styles.scss */
+.call-us-block img {
+  display: inline-block;
+  line-height: 33px;
+  vertical-align: middle;
+}
+
+/* line 436, ../sass/main_styles.scss */
+#info-mobile {
+  width: 253px;
+  height: auto;
+  background-color: #f2eeeb;
+  clear: none;
+  float: right;
+  position: absolute;
+  top: 61px;
+  right: 0;
+  z-index: 100;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 448, ../sass/main_styles.scss */
+#info-mobile a {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+}
+/* line 452, ../sass/main_styles.scss */
+#info-mobile a .phone {
+  color: #908782;
+  font: 400 25px / 31px 'PT Sans', sans-serif;
+  font-style: italic;
+}
+
+/* line 459, ../sass/main_styles.scss */
+.call-us-block > label {
+  color: #000;
+  float: right;
+  margin: 15px 0 0 10px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 465, ../sass/main_styles.scss */
+.call-us-block > label .fa-phone {
+  font-size: 23px;
+  color: #171c61;
+}
+
+/* line 470, ../sass/main_styles.scss */
+input {
+  display: none;
+}
+
+/* line 471, ../sass/main_styles.scss */
+input:checked + #info-mobile {
+  display: none;
+}
+
+/*end dropdown phone*/
+/*end menu*/
+/*------------------------------------*/
+/* line 476, ../sass/main_styles.scss */
+.content-main {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+
+/* line 479, ../sass/main_styles.scss */
+.title-bg {
+  width: 100%;
+  background: #fff;
+}
+/* line 482, ../sass/main_styles.scss */
+.title-bg .head-title {
+  margin: 12px auto 11px;
+  text-align: center;
+  color: #ffab08;
+  font: 700 18px / 19px 'PTSans', sans-serif;
+  font-style: italic;
+}
+
+/* line 490, ../sass/main_styles.scss */
+.content-bg {
+  background-color: #e1ddda;
+}
+/* line 492, ../sass/main_styles.scss */
+.content-bg .list-title {
+  margin: 22px auto;
+  text-align: center;
+}
+/* line 495, ../sass/main_styles.scss */
+.content-bg .list-title a {
+  color: #370909;
+  font: 35px / 56px 'Georgia', sans-serif;
+  font-style: italic;
+}
+/* line 501, ../sass/main_styles.scss */
+.content-bg .children-list,
+.content-bg .youth-list,
+.content-bg .business-list,
+.content-bg .special-list {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 510, ../sass/main_styles.scss */
+.content-bg .children-list li,
+.content-bg .youth-list li,
+.content-bg .business-list li,
+.content-bg .special-list li {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 15px auto;
+}
+/* line 515, ../sass/main_styles.scss */
+.content-bg .children-list li a,
+.content-bg .youth-list li a,
+.content-bg .business-list li a,
+.content-bg .special-list li a {
+  color: #8f8681;
+  font: 400 18px / 19px 'Arial', sans-serif;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+/* line 521, ../sass/main_styles.scss */
+.content-bg .children-list li a:hover,
+.content-bg .youth-list li a:hover,
+.content-bg .business-list li a:hover,
+.content-bg .special-list li a:hover {
+  border-color: #8f8681;
+}
+
+/* line 528, ../sass/main_styles.scss */
+.main-about {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  background-color: #f2eeeb;
+}
+/* line 531, ../sass/main_styles.scss */
+.main-about .main-title {
+  margin: 34px auto 13px;
+  text-align: center;
+  color: #370909;
+  font: 300 22px / 20px 'PTSans', sans-serif;
+  font-style: italic;
+}
+/* line 538, ../sass/main_styles.scss */
+.main-about .main-description {
+  margin: 0 auto;
+  color: #908782;
+  font: 400 18px / 22px 'PTSans', sans-serif;
+}
+/* line 543, ../sass/main_styles.scss */
+.main-about .prioritet-title {
+  margin: 30px auto 13px;
+  text-align: center;
+  color: #370909;
+  font: 400 22px / 20px 'PTSans', sans-serif;
+  font-style: italic;
+}
+/* line 550, ../sass/main_styles.scss */
+.main-about .prioritet-list {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto 25px;
+  text-align: center;
+}
+/* line 556, ../sass/main_styles.scss */
+.main-about .prioritet-list li {
+  display: block;
+  margin: 10px auto;
+  padding-bottom: 5px;
+  text-align: left;
+  border-bottom: 1px dotted #908782;
+}
+/* line 563, ../sass/main_styles.scss */
+.main-about .prioritet-list li:last-child {
+  border-bottom: none;
+}
+/* line 566, ../sass/main_styles.scss */
+.main-about .prioritet-list li a {
+  color: #908782;
+  font: 18px / 18px 'PTSans', sans-serif;
+  font-style: italic;
+}
+
+/*------------------------------------*/
+/* line 576, ../sass/main_styles.scss */
+footer {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  background: #370909;
+}
+/* line 580, ../sass/main_styles.scss */
+footer .phone-list {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 20px auto 0;
+  text-align: center;
+}
+/* line 586, ../sass/main_styles.scss */
+footer .phone-list li {
+  display: block;
+  width: 100%;
+  margin: 15px auto;
+  color: #908782;
+  font: 25px / 31px 'PT Sans', sans-serif;
+  font-style: italic;
+}
+/* line 595, ../sass/main_styles.scss */
+footer .loction {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 10px auto 0;
+  text-align: center;
+  color: #908782;
+  font: 18px / 25px 'PT Sans', sans-serif;
+  font-style: italic;
+}
+/* line 605, ../sass/main_styles.scss */
+footer .social-icons {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 26px auto;
+  text-align: center;
+}
+/* line 612, ../sass/main_styles.scss */
+footer .social-icons li {
+  display: inline-block;
+  margin: 0 15px;
+  text-align: center;
+}
+/* line 619, ../sass/main_styles.scss */
+footer .copyright {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: #908782;
+  font: 400 10px / 19px 'PTSans', sans-serif;
+}
+/* line 627, ../sass/main_styles.scss */
+footer .copyright a {
+  color: #908782;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 631, ../sass/main_styles.scss */
+footer .copyright a:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------*/
+/*------------------------------------*/
+@media (min-width: 480px) {
+  /* line 642, ../sass/main_styles.scss */
+  header .call-us-block .label {
+    margin-left: 30px;
+  }
+}
+/*------------------------------------*/
