@@ -116,71 +116,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-style: normal;
 }
 @font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTN57F.eot");
-  src: url("../resources/PTSans/PTN57F.woff2") format("woff2"), url("../resources/PTSans/PTN57F.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTSans-Narrow.woff") format("woff"), url("../resources/PTSans/PTSans-Narrow.ttf") format("truetype"), url("../resources/PTSans/PTSans-Narrow.svg#PTSans-Narrow") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTN77F.eot");
-  src: url("../resources/PTSans/PTN77F.woff2") format("woff2"), url("../resources/PTSans/PTN77F.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTSans-NarrowBold.woff") format("woff"), url("../resources/PTSans/PTSans-NarrowBold.ttf") format("truetype"), url("../resources/PTSans/PTSans-NarrowBold.svg#PTSans-NarrowBold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTS55F.eot");
-  src: url("../resources/PTSans/PTS55F.woff2") format("woff2"), url("../resources/PTSans/PTS55F.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTSans-Regular.woff") format("woff"), url("../resources/PTSans/PTSans-Regular.ttf") format("truetype"), url("../resources/PTSans/PTSans-Regular.svg#PTSans-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTS76F.eot");
-  src: url("../resources/PTSans/PTS76F.woff2") format("woff2"), url("../resources/PTSans/PTS76F.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTSans-BoldItalic.woff") format("woff"), url("../resources/PTSans/PTSans-BoldItalic.ttf") format("truetype"), url("../resources/PTSans/PTSans-BoldItalic.svg#PTSans-BoldItalic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTS75F.eot");
-  src: url("../resources/PTSans/PTS75F.woff2") format("woff2"), url("../resources/PTSans/PTS75F.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url("../resources/PTSans/PTSans-Bold.woff") format("woff"), url("../resources/PTSans/PTSans-Bold.ttf") format("truetype"), url("../resources/PTSans/PTSans-Bold.svg#PTSans-Bold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: 'Arial';
   src: url("../resources/Arial/ArialMT.woff") format("woff"), url("../resources/Arial/ArialMT.ttf") format("truetype"), url("../resources/Arial/ArialMT.svg#ArialMT") format("svg");
   font-weight: normal;
@@ -195,7 +130,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 184, ../sass/main_styles.scss */
 body {
-  font-family: 'PTSans', 'Georgia', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'PT Sans', 'Georgia', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 16px;
   background: #fff;
@@ -481,7 +416,7 @@ input:checked + #info-mobile {
   margin: 12px auto 11px;
   text-align: center;
   color: #ffab08;
-  font: 700 18px / 19px 'PTSans', sans-serif;
+  font: 700 18px / 19px 'PT Sans', sans-serif;
   font-style: italic;
 }
 
@@ -557,21 +492,21 @@ input:checked + #info-mobile {
   margin: 34px auto 13px;
   text-align: center;
   color: #370909;
-  font: 300 22px / 20px 'PTSans', sans-serif;
+  font: 300 22px / 20px 'PT Sans', sans-serif;
   font-style: italic;
 }
 /* line 535, ../sass/main_styles.scss */
 .main-about .main-description {
   margin: 0 auto;
   color: #908782;
-  font: 400 18px / 22px 'PTSans', sans-serif;
+  font: 400 18px / 22px 'PT Sans', sans-serif;
 }
 /* line 540, ../sass/main_styles.scss */
 .main-about .prioritet-title {
   margin: 30px auto 13px;
   text-align: center;
   color: #370909;
-  font: 400 22px / 20px 'PTSans', sans-serif;
+  font: 400 22px / 20px 'PT Sans', sans-serif;
   font-style: italic;
 }
 /* line 547, ../sass/main_styles.scss */
@@ -597,7 +532,7 @@ input:checked + #info-mobile {
 /* line 563, ../sass/main_styles.scss */
 .main-about .prioritet-list li a {
   color: #908782;
-  font: 18px / 18px 'PTSans', sans-serif;
+  font: 18px / 18px 'PT Sans', sans-serif;
   font-style: italic;
 }
 
@@ -662,7 +597,7 @@ footer .copyright {
   margin: 0 auto 20px;
   text-align: center;
   color: #908782;
-  font: 400 10px / 19px 'PTSans', sans-serif;
+  font: 400 10px / 19px 'PT Sans', sans-serif;
 }
 /* line 624, ../sass/main_styles.scss */
 footer .copyright a {
@@ -729,7 +664,7 @@ footer .copyright a:hover {
   margin: 24px auto 12px;
   text-align: center;
   color: #370909;
-  font: 700 22px / 22px 'PTSans', sans-serif;
+  font: 700 22px / 22px 'PT Sans', sans-serif;
 }
 /* line 658, ../sass/main_styles.scss */
 .about-us-page .proposition {
@@ -827,7 +762,7 @@ footer .copyright a:hover {
   margin: 0 auto;
   text-align: center;
   color: #370909;
-  font: 700 22px / 25px 'PTSans', sans-serif;
+  font: 700 22px / 25px 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
 /* line 744, ../sass/main_styles.scss */
@@ -1022,7 +957,7 @@ footer .copyright a:hover {
 /* line 881, ../sass/main_styles.scss */
 .news-more-page .reasons-title {
   margin-top: 25px;
-  font: 700 18px / 22px 'PTSans', sans-serif;
+  font: 700 18px / 22px 'PT Sans', sans-serif;
   color: indigo;
 }
 /* line 886, ../sass/main_styles.scss */
@@ -1043,7 +978,7 @@ footer .copyright a:hover {
 }
 /* line 899, ../sass/main_styles.scss */
 .news-more-page .reasons-list li .reasons-number {
-  font: 700 18px / 22px 'PTSans', sans-serif;
+  font: 700 18px / 22px 'PT Sans', sans-serif;
   color: indigo;
 }
 /* line 903, ../sass/main_styles.scss */
@@ -1174,7 +1109,7 @@ footer .copyright a:hover {
   float: right;
   margin: 0 0 15px 0;
   color: #370909;
-  font: 18px / 23px 'PTSans', sans-serif;
+  font: 18px / 23px 'PT Sans', sans-serif;
   font-style: italic;
 }
 /* line 998, ../sass/main_styles.scss */
@@ -1267,11 +1202,122 @@ footer .copyright a:hover {
 /* line 1076, ../sass/main_styles.scss */
 .contact-page .feedbck-form .submit-button span {
   color: #370909;
-  font: 18px / 30px 'PTSans', sans-serif;
+  font: 18px / 30px 'PT Sans', sans-serif;
   font-style: italic;
 }
 /* line 1081, ../sass/main_styles.scss */
 .contact-page .feedbck-form .submit-button img {
+  float: right;
+  max-width: 100%;
+  height: auto;
+  margin: 8px 5px 0 0;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/* line 1092, ../sass/main_styles.scss */
+.question-form-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 1094, ../sass/main_styles.scss */
+.question-form-page .feedbck-form {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* line 1100, ../sass/main_styles.scss */
+.question-form-page .feedbck-form .form-title {
+  margin: 25px auto 22px;
+  text-align: center;
+  color: #370909;
+  font: 22px / 23px 'PT Sans', sans-serif;
+  font-style: italic;
+}
+/* line 1107, ../sass/main_styles.scss */
+.question-form-page .feedbck-form ::-webkit-input-placeholder {
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 1112, ../sass/main_styles.scss */
+.question-form-page .feedbck-form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 1117, ../sass/main_styles.scss */
+.question-form-page .feedbck-form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 1122, ../sass/main_styles.scss */
+.question-form-page .feedbck-form :-ms-input-placeholder {
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 1126, ../sass/main_styles.scss */
+.question-form-page .feedbck-form .name,
+.question-form-page .feedbck-form .phone,
+.question-form-page .feedbck-form .email {
+  display: block;
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 12px auto;
+  padding-left: 12px;
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e1ddda;
+  outline: none;
+}
+/* line 1144, ../sass/main_styles.scss */
+.question-form-page .feedbck-form .message {
+  display: block;
+  width: 100%;
+  height: 181px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-left: 12px;
+  color: #370909;
+  font: 400 18px / 23px 'Arial', sans-serif;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  border: 1px solid #e1ddda;
+}
+/* line 1160, ../sass/main_styles.scss */
+.question-form-page .feedbck-form .submit-button {
+  display: block;
+  float: right;
+  width: 128px;
+  height: 35px;
+  margin: 10px 0 33px;
+  cursor: pointer;
+  background-color: #e1ddda;
+  border: 1px solid #e1ddda;
+  border-radius: 10px;
+  outline: none;
+}
+/* line 1171, ../sass/main_styles.scss */
+.question-form-page .feedbck-form .submit-button span {
+  color: #370909;
+  font: 18px / 30px 'PT Sans', sans-serif;
+  font-style: italic;
+}
+/* line 1176, ../sass/main_styles.scss */
+.question-form-page .feedbck-form .submit-button img {
   float: right;
   max-width: 100%;
   height: auto;
