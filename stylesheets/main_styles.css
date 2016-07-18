@@ -1077,3 +1077,51 @@ footer .copyright a:hover {
 }
 
 /*--------------------------------------*/
+/* line 932, ../sass/main_styles.scss */
+.kids-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 935, ../sass/main_styles.scss */
+.kids-page .article-img {
+  max-width: 163px;
+  max-height: 163px;
+  width: auto;
+  height: auto;
+  margin: 21px auto 23px;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 944, ../sass/main_styles.scss */
+.kids-page .article-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+  border: 5px solid #f2eeeb;
+}
+/* line 951, ../sass/main_styles.scss */
+.kids-page .kids-content {
+  margin-bottom: 15px;
+  border-top: 1px dotted #5a5a5a;
+  padding-top: 19px;
+}
+/* line 956, ../sass/main_styles.scss */
+.kids-page .kids-content .education-item {
+  display: block;
+  margin: 0 auto 25px;
+  font: 22px / 25px 'PT Sans', sans-serif;
+  font-style: italic;
+  color: indigo;
+}
+/* line 963, ../sass/main_styles.scss */
+.kids-page .kids-content .article-description {
+  margin: 15px auto;
+  font: 18px / 22px 'PT Sans', sans-serif;
+  color: #5a5a5a;
+}
+
+/*--------------------------------------*/
