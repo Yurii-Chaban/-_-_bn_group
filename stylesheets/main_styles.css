@@ -799,7 +799,16 @@ footer .copyright a:hover {
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/* line 724, ../sass/main_styles.scss */
+/* line 723, ../sass/main_styles.scss */
+.news-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 725, ../sass/main_styles.scss */
 .news-page .news-list {
   width: 100%;
   box-sizing: border-box;
@@ -807,13 +816,13 @@ footer .copyright a:hover {
   margin: 0 auto;
   text-align: center;
 }
-/* line 731, ../sass/main_styles.scss */
+/* line 732, ../sass/main_styles.scss */
 .news-page .news-list li {
   width: 100%;
   margin: 24px auto 33px;
   overflow: hidden;
 }
-/* line 736, ../sass/main_styles.scss */
+/* line 737, ../sass/main_styles.scss */
 .news-page .news-list li .title {
   margin: 0 auto;
   text-align: center;
@@ -821,7 +830,7 @@ footer .copyright a:hover {
   font: 700 22px / 25px 'PTSans', sans-serif;
   text-transform: uppercase;
 }
-/* line 743, ../sass/main_styles.scss */
+/* line 744, ../sass/main_styles.scss */
 .news-page .news-list li .img-block {
   max-width: 145px;
   max-height: 145px;
@@ -833,19 +842,19 @@ footer .copyright a:hover {
   border-radius: 100%;
   border: 3px solid #e1dddb;
 }
-/* line 754, ../sass/main_styles.scss */
+/* line 755, ../sass/main_styles.scss */
 .news-page .news-list li .img-block img {
   max-width: 100%;
   height: auto;
 }
-/* line 759, ../sass/main_styles.scss */
+/* line 760, ../sass/main_styles.scss */
 .news-page .news-list li .news-description {
   color: #908782;
   text-align: left;
   font: 15px / 20px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 765, ../sass/main_styles.scss */
+/* line 766, ../sass/main_styles.scss */
 .news-page .news-list li .news-more {
   position: relative;
   float: right;
@@ -859,7 +868,7 @@ footer .copyright a:hover {
   border: 1px solid #e1ddda;
   border-radius: 10px;
 }
-/* line 778, ../sass/main_styles.scss */
+/* line 779, ../sass/main_styles.scss */
 .news-page .news-list li .news-more:before {
   position: absolute;
   left: -2003%;
@@ -869,12 +878,12 @@ footer .copyright a:hover {
   height: 1px;
   border-bottom: 1px dotted #908782;
 }
-/* line 787, ../sass/main_styles.scss */
+/* line 788, ../sass/main_styles.scss */
 .news-page .news-list li .news-more img {
   float: right;
   margin: 10px 10px 0 0;
 }
-/* line 794, ../sass/main_styles.scss */
+/* line 795, ../sass/main_styles.scss */
 .news-page .page-pagination {
   position: relative;
   width: 100%;
@@ -908,6 +917,57 @@ footer .copyright a:hover {
 /* line 227, ../sass/main_styles.scss */
 .news-page .page-pagination li a:hover {
   color: #f37835;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/* line 801, ../sass/main_styles.scss */
+.gallery-event-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 804, ../sass/main_styles.scss */
+.gallery-event-page .gallery-event-list {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 811, ../sass/main_styles.scss */
+.gallery-event-page .gallery-event-list li {
+  display: block;
+  margin: 24px auto 33px;
+  overflow: hidden;
+}
+/* line 816, ../sass/main_styles.scss */
+.gallery-event-page .gallery-event-list li .img-block {
+  max-width: 145px;
+  max-height: 145px;
+  width: 100%;
+  height: auto;
+  margin: 9px auto 21px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 3px solid #e1dddb;
+}
+/* line 827, ../sass/main_styles.scss */
+.gallery-event-page .gallery-event-list li .img-block img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 833, ../sass/main_styles.scss */
+.gallery-event-page .gallery-event-list li .title {
+  margin: 0 auto;
+  text-align: center;
+  color: #908782;
+  font: 18px / 22px 'PT Sans', sans-serif;
+  font-style: italic;
 }
 
 /*--------------------------------------*/

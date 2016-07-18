@@ -721,6 +721,7 @@ footer {
 /*--------------------------------------*/
 /*--------------------------------------*/
 .news-page {
+  @include site-container;
   .news-list {
     width: 100%;
     box-sizing: border-box;
@@ -793,6 +794,50 @@ footer {
   }
   .page-pagination {
     @include page-pagination;
+  }
+}
+/*--------------------------------------*/
+/*--------------------------------------*/
+.gallery-event-page {
+  @include site-container;
+
+  .gallery-event-list {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+
+    li {
+      display: block;
+      margin: 24px auto 33px;
+      overflow: hidden;
+
+      .img-block {
+        max-width: 145px;
+        max-height: 145px;
+        width: 100%;
+        height: auto;
+        margin: 9px auto 21px;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 100%;
+        border: 3px solid #e1dddb;
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      .title {
+        margin: 0 auto;
+        text-align: center;
+        color: #908782;
+        font: 18px / 22px 'PT Sans', sans-serif;
+        font-style: italic;
+      }
+    }
   }
 }
 /*--------------------------------------*/
