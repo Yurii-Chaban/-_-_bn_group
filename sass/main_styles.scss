@@ -877,6 +877,210 @@ footer {
 }
 /*--------------------------------------*/
 /*--------------------------------------*/
+.study-buy-page {
+  @include site-container;
+
+  .img-block {
+    max-width: 165px;
+    max-height: 165px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto 12px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 3px solid #e1dddb;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .img-title {
+    margin: 0 auto;
+    text-align: center;
+    color: #6f3186;
+    font: 400 21px / 41px 'PT Sans', sans-serif;
+    text-transform: uppercase;
+  }
+  .buy-table {
+    padding-top: 15px;
+    border-top: 1px dotted #b5afac;
+
+    .buy-item {
+      width: 100%;
+      padding: 20px 10px;
+      box-sizing: border-box;
+      overflow: hidden;
+      background: #f2eeeb;
+      border-bottom: 1px dotted #b5afac;
+
+      &:last-child {
+        border: none;
+      }
+
+      .school-name {
+        color: #370909;
+        font: 400 18px / 20px 'Arial', sans-serif;
+      }
+      .school-location {
+        margin: 11px 0 16px;
+        color: #370909;
+        font: 700 16px / 20px 'Arial', sans-serif;
+        text-transform: uppercase;
+        clear: both;
+      }
+      .student-age {
+        float: left;
+        font: 700 16px / 20px 'Arial', sans-serif;
+      }
+      .date {
+        float: right;
+        font: 700 16px / 20px 'Arial', sans-serif;
+      }
+      .code {
+        float: left;
+        margin-top: 23px;
+        clear: both;
+        color: #370909;
+        font: 700 22px / 20px 'Arial', sans-serif;
+        text-transform: uppercase;
+      }
+      .more {
+        float: right;
+        display: block;
+        margin-top: 12px;
+        width: 39px;
+        height: 39px;
+        background-color: #ffab08;
+        border: 3px solid white;
+        overflow: hidden;
+        border-radius: 100%;
+        position: relative;
+
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: block;
+          margin: 0 auto;
+          line-height: 39px;
+          vertical-align: middle;
+          text-align: center;
+        }
+      }
+    }
+  }
+  p {
+    margin: 26px auto 29px;
+    color: #5a5a5a;
+    font: 18px / 22px 'PT Sans', sans-serif;
+    font-style: italic;
+  }
+}
+/*--------------------------------------*/
+/*--------------------------------------*/
+.kidz-podrazdel-page {
+  .img-block {
+    max-width: 170px;
+    max-height: 170px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto 12px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 3px solid #e1dddb;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .img-title {
+    margin: 0 auto;
+    text-align: center;
+    color: #6f3186;
+    font: 400 21px / 41px 'PT Sans', sans-serif;
+    text-transform: uppercase;
+  }
+  .img-school-location {
+    margin: 0 auto 22px;
+    text-align: center;
+    color: #6c6460;
+    font: 700 16px / 23px 'PT Sans', sans-serif;
+    text-transform: uppercase;
+  }
+  .location {
+    p {
+      font: 18px / 22px 'PT Sans', sans-serif;
+      font-style: italic;
+      color: #5a5a5a;
+    }
+  }
+  .study-type {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 20px auto;
+    text-align: center;
+    li {
+      display: block;
+      width: 100%;
+      text-align: left;
+      font: 18px / 22px 'PT Sans', sans-serif;
+      font-style: italic;
+      p {
+        color: #6f3186;
+      }
+      span {
+        color: #5a5a5a;
+      }
+    }
+  }
+  .program {
+    font: 18px / 22px 'PT Sans', sans-serif;
+   p {
+      color: #6f3186;
+    }
+    h3 {
+      color: #5a5a5a;
+    }
+  }
+  .price {
+    margin: 20px auto;
+    font: 18px / 22px 'PT Sans', sans-serif;
+    color: #6f3186;
+    font-style: italic;
+    span {
+      display: block;
+    }
+  }
+  .additional-service {
+    font: 18px / 22px 'PT Sans', sans-serif;
+    color: #6f3186;
+    font-style: italic;
+  }
+  .additional-list {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 20px auto;
+    text-align: center;
+    li {
+      display: block;
+      width: 100%;
+      text-align: left;
+      span {
+        font: 18px / 22px 'PT Sans', sans-serif;
+        color: #5a5a5a;
+        font-style: italic;
+      }
+    }
+  }
+}
+/*--------------------------------------*/
 .gallery-event-page {
   @include site-container;
 
