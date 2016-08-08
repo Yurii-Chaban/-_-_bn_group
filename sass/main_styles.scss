@@ -642,6 +642,21 @@ footer {
       }
     }
   }
+  .kids-page {
+    .school-link-list {
+      li {
+        display: inline-block !important;
+        margin: 15px 10px !important;
+
+        &:first-child {
+          margin-left: 0 !important;
+        }
+        &:last-child {
+          margin-right: 0 !important;
+        }
+      }
+    }
+  }
 }
 /*------------------------------------*/
 .direction {
@@ -1215,22 +1230,41 @@ footer {
 .kids-page {
   @include site-container;
 
-  .article-img {
-    max-width: 163px;
-    max-height: 163px;
-    width: auto;
-    height: auto;
-    margin: 21px auto 23px;
-    text-align: center;
-    overflow: hidden;
+  // .article-img {
+  //   max-width: 163px;
+  //   max-height: 163px;
+  //   width: auto;
+  //   height: auto;
+  //   margin: 21px auto 23px;
+  //   text-align: center;
+  //   overflow: hidden;
 
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 100%;
-      border: 5px solid #f2eeeb;
+  //   img {
+  //     max-width: 100%;
+  //     height: auto;
+  //     border-radius: 100%;
+  //     border: 5px solid #f2eeeb;
+  //   }
+  // }  
+  .school-link-list {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    li {
+      display: block;
+      margin: 15px auto;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font: 20px / 24px 'PT Sans', sans-serif;
+        color: #5a5a5a;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
-  }  
+  }
   .kids-content {
     margin-bottom: 15px;
     border-top: 1px dotted #5a5a5a;

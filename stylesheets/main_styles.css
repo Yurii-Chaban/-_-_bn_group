@@ -620,9 +620,23 @@ footer .copyright a:hover {
   header .call-us-block .label {
     margin-left: 30px;
   }
+
+  /* line 647, ../sass/main_styles.scss */
+  .kids-page .school-link-list li {
+    display: inline-block !important;
+    margin: 15px 10px !important;
+  }
+  /* line 651, ../sass/main_styles.scss */
+  .kids-page .school-link-list li:first-child {
+    margin-left: 0 !important;
+  }
+  /* line 654, ../sass/main_styles.scss */
+  .kids-page .school-link-list li:last-child {
+    margin-right: 0 !important;
+  }
 }
 /*------------------------------------*/
-/* line 647, ../sass/main_styles.scss */
+/* line 662, ../sass/main_styles.scss */
 .direction {
   position: relative;
   width: 100%;
@@ -651,7 +665,7 @@ footer .copyright a:hover {
 }
 
 /*-----------------------------------*/
-/* line 651, ../sass/main_styles.scss */
+/* line 666, ../sass/main_styles.scss */
 .about-us-page {
   position: relative;
   width: 100%;
@@ -660,20 +674,20 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 653, ../sass/main_styles.scss */
+/* line 668, ../sass/main_styles.scss */
 .about-us-page .about-title {
   margin: 24px auto 12px;
   text-align: center;
   color: #370909;
   font: 700 22px / 22px 'PT Sans', sans-serif;
 }
-/* line 659, ../sass/main_styles.scss */
+/* line 674, ../sass/main_styles.scss */
 .about-us-page .proposition {
   margin: 10px auto;
   color: #908782;
   font: 400 18px / 22px 'PT Sans', sans-serif;
 }
-/* line 664, ../sass/main_styles.scss */
+/* line 679, ../sass/main_styles.scss */
 .about-us-page .proposition-list {
   width: 100%;
   box-sizing: border-box;
@@ -682,7 +696,7 @@ footer .copyright a:hover {
   text-align: center;
   list-style-type: disc;
 }
-/* line 672, ../sass/main_styles.scss */
+/* line 687, ../sass/main_styles.scss */
 .about-us-page .proposition-list li {
   position: relative;
   display: block;
@@ -694,7 +708,7 @@ footer .copyright a:hover {
   color: #908782;
   font: 400 18px / 22px 'PT Sans', sans-serif;
 }
-/* line 683, ../sass/main_styles.scss */
+/* line 698, ../sass/main_styles.scss */
 .about-us-page .proposition-list li:before {
   position: absolute;
   content: "";
@@ -706,7 +720,7 @@ footer .copyright a:hover {
   border-radius: 100%;
   font: 400 18px / 22px 'PT Sans', sans-serif;
 }
-/* line 696, ../sass/main_styles.scss */
+/* line 711, ../sass/main_styles.scss */
 .about-us-page .proposition-description {
   margin: 20px auto;
   color: #908782;
@@ -715,19 +729,19 @@ footer .copyright a:hover {
 
 /*-----------------------------------*/
 @media (max-width: 320px) {
-  /* line 705, ../sass/main_styles.scss */
+  /* line 720, ../sass/main_styles.scss */
   .sob-podrob .arrow-back {
     margin: 18px 0 0 0;
   }
 }
 /*--------------------------------------*/
-/* line 712, ../sass/main_styles.scss */
+/* line 727, ../sass/main_styles.scss */
 .activitis-page .img-container {
   width: 100%;
   margin: 22px auto 20px;
   text-align: center;
 }
-/* line 716, ../sass/main_styles.scss */
+/* line 731, ../sass/main_styles.scss */
 .activitis-page .img-container img {
   max-width: 100%;
   height: auto;
@@ -735,7 +749,7 @@ footer .copyright a:hover {
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/* line 724, ../sass/main_styles.scss */
+/* line 739, ../sass/main_styles.scss */
 .news-page {
   position: relative;
   width: 100%;
@@ -744,7 +758,7 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 726, ../sass/main_styles.scss */
+/* line 741, ../sass/main_styles.scss */
 .news-page .news-list {
   width: 100%;
   box-sizing: border-box;
@@ -752,13 +766,13 @@ footer .copyright a:hover {
   margin: 0 auto;
   text-align: center;
 }
-/* line 733, ../sass/main_styles.scss */
+/* line 748, ../sass/main_styles.scss */
 .news-page .news-list li {
   width: 100%;
   margin: 24px auto 33px;
   overflow: hidden;
 }
-/* line 738, ../sass/main_styles.scss */
+/* line 753, ../sass/main_styles.scss */
 .news-page .news-list li .title {
   margin: 0 auto;
   text-align: center;
@@ -766,7 +780,7 @@ footer .copyright a:hover {
   font: 700 22px / 25px 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
-/* line 745, ../sass/main_styles.scss */
+/* line 760, ../sass/main_styles.scss */
 .news-page .news-list li .img-block {
   max-width: 145px;
   max-height: 145px;
@@ -778,19 +792,19 @@ footer .copyright a:hover {
   border-radius: 100%;
   border: 3px solid #e1dddb;
 }
-/* line 756, ../sass/main_styles.scss */
+/* line 771, ../sass/main_styles.scss */
 .news-page .news-list li .img-block img {
   width: 100%;
   height: 100%;
 }
-/* line 761, ../sass/main_styles.scss */
+/* line 776, ../sass/main_styles.scss */
 .news-page .news-list li .news-description {
   color: #908782;
   text-align: left;
   font: 15px / 20px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 767, ../sass/main_styles.scss */
+/* line 782, ../sass/main_styles.scss */
 .news-page .news-list li .news-more {
   position: relative;
   float: right;
@@ -804,7 +818,7 @@ footer .copyright a:hover {
   border: 1px solid #e1ddda;
   border-radius: 10px;
 }
-/* line 780, ../sass/main_styles.scss */
+/* line 795, ../sass/main_styles.scss */
 .news-page .news-list li .news-more:before {
   position: absolute;
   left: -2003%;
@@ -814,12 +828,12 @@ footer .copyright a:hover {
   height: 1px;
   border-bottom: 1px dotted #908782;
 }
-/* line 789, ../sass/main_styles.scss */
+/* line 804, ../sass/main_styles.scss */
 .news-page .news-list li .news-more img {
   float: right;
   margin: 10px 10px 0 0;
 }
-/* line 796, ../sass/main_styles.scss */
+/* line 811, ../sass/main_styles.scss */
 .news-page .page-pagination {
   position: relative;
   width: 100%;
@@ -857,7 +871,7 @@ footer .copyright a:hover {
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/* line 802, ../sass/main_styles.scss */
+/* line 817, ../sass/main_styles.scss */
 .articles-page {
   position: relative;
   width: 100%;
@@ -866,7 +880,7 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 804, ../sass/main_styles.scss */
+/* line 819, ../sass/main_styles.scss */
 .articles-page .articles-list {
   width: 100%;
   box-sizing: border-box;
@@ -874,13 +888,13 @@ footer .copyright a:hover {
   margin: 0 auto;
   text-align: center;
 }
-/* line 811, ../sass/main_styles.scss */
+/* line 826, ../sass/main_styles.scss */
 .articles-page .articles-list li {
   width: 100%;
   margin: 24px auto 33px;
   overflow: hidden;
 }
-/* line 816, ../sass/main_styles.scss */
+/* line 831, ../sass/main_styles.scss */
 .articles-page .articles-list li .title {
   margin: 0 auto;
   text-align: center;
@@ -888,7 +902,7 @@ footer .copyright a:hover {
   font: 700 22px / 25px 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
-/* line 823, ../sass/main_styles.scss */
+/* line 838, ../sass/main_styles.scss */
 .articles-page .articles-list li .img-block {
   max-width: 145px;
   max-height: 145px;
@@ -900,19 +914,19 @@ footer .copyright a:hover {
   border-radius: 100%;
   border: 3px solid #e1dddb;
 }
-/* line 834, ../sass/main_styles.scss */
+/* line 849, ../sass/main_styles.scss */
 .articles-page .articles-list li .img-block img {
   width: 100%;
   height: 100%;
 }
-/* line 839, ../sass/main_styles.scss */
+/* line 854, ../sass/main_styles.scss */
 .articles-page .articles-list li .articles-description {
   color: #908782;
   text-align: left;
   font: 15px / 20px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 845, ../sass/main_styles.scss */
+/* line 860, ../sass/main_styles.scss */
 .articles-page .articles-list li .articles-more {
   position: relative;
   float: right;
@@ -926,7 +940,7 @@ footer .copyright a:hover {
   border: 1px solid #e1ddda;
   border-radius: 10px;
 }
-/* line 858, ../sass/main_styles.scss */
+/* line 873, ../sass/main_styles.scss */
 .articles-page .articles-list li .articles-more:before {
   position: absolute;
   left: -2003%;
@@ -936,12 +950,12 @@ footer .copyright a:hover {
   height: 1px;
   border-bottom: 1px dotted #908782;
 }
-/* line 867, ../sass/main_styles.scss */
+/* line 882, ../sass/main_styles.scss */
 .articles-page .articles-list li .articles-more img {
   float: right;
   margin: 10px 10px 0 0;
 }
-/* line 874, ../sass/main_styles.scss */
+/* line 889, ../sass/main_styles.scss */
 .articles-page .page-pagination {
   position: relative;
   width: 100%;
@@ -979,7 +993,7 @@ footer .copyright a:hover {
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/* line 880, ../sass/main_styles.scss */
+/* line 895, ../sass/main_styles.scss */
 .study-buy-page {
   position: relative;
   width: 100%;
@@ -988,7 +1002,7 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 883, ../sass/main_styles.scss */
+/* line 898, ../sass/main_styles.scss */
 .study-buy-page .img-block {
   max-width: 165px;
   max-height: 165px;
@@ -1000,12 +1014,12 @@ footer .copyright a:hover {
   border-radius: 100%;
   border: 3px solid #e1dddb;
 }
-/* line 894, ../sass/main_styles.scss */
+/* line 909, ../sass/main_styles.scss */
 .study-buy-page .img-block img {
   width: 100%;
   height: 100%;
 }
-/* line 899, ../sass/main_styles.scss */
+/* line 914, ../sass/main_styles.scss */
 .study-buy-page .img-title {
   margin: 0 auto;
   text-align: center;
@@ -1013,12 +1027,12 @@ footer .copyright a:hover {
   font: 400 21px / 41px 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
-/* line 906, ../sass/main_styles.scss */
+/* line 921, ../sass/main_styles.scss */
 .study-buy-page .buy-table {
   padding-top: 15px;
   border-top: 1px dotted #b5afac;
 }
-/* line 910, ../sass/main_styles.scss */
+/* line 925, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item {
   width: 100%;
   padding: 20px 10px;
@@ -1027,16 +1041,16 @@ footer .copyright a:hover {
   background: #f2eeeb;
   border-bottom: 1px dotted #b5afac;
 }
-/* line 918, ../sass/main_styles.scss */
+/* line 933, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item:last-child {
   border: none;
 }
-/* line 922, ../sass/main_styles.scss */
+/* line 937, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item .school-name {
   color: #370909;
   font: 400 18px / 20px 'Arial', sans-serif;
 }
-/* line 926, ../sass/main_styles.scss */
+/* line 941, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item .school-location {
   margin: 11px 0 16px;
   color: #370909;
@@ -1044,17 +1058,17 @@ footer .copyright a:hover {
   text-transform: uppercase;
   clear: both;
 }
-/* line 933, ../sass/main_styles.scss */
+/* line 948, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item .student-age {
   float: left;
   font: 700 16px / 20px 'Arial', sans-serif;
 }
-/* line 937, ../sass/main_styles.scss */
+/* line 952, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item .date {
   float: right;
   font: 700 16px / 20px 'Arial', sans-serif;
 }
-/* line 941, ../sass/main_styles.scss */
+/* line 956, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item .code {
   float: left;
   margin-top: 23px;
@@ -1063,7 +1077,7 @@ footer .copyright a:hover {
   font: 700 22px / 20px 'Arial', sans-serif;
   text-transform: uppercase;
 }
-/* line 949, ../sass/main_styles.scss */
+/* line 964, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item .more {
   float: right;
   display: block;
@@ -1076,7 +1090,7 @@ footer .copyright a:hover {
   border-radius: 100%;
   position: relative;
 }
-/* line 961, ../sass/main_styles.scss */
+/* line 976, ../sass/main_styles.scss */
 .study-buy-page .buy-table .buy-item .more img {
   position: absolute;
   top: 50%;
@@ -1088,7 +1102,7 @@ footer .copyright a:hover {
   vertical-align: middle;
   text-align: center;
 }
-/* line 975, ../sass/main_styles.scss */
+/* line 990, ../sass/main_styles.scss */
 .study-buy-page p {
   margin: 26px auto 29px;
   color: #5a5a5a;
@@ -1098,7 +1112,7 @@ footer .copyright a:hover {
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/* line 985, ../sass/main_styles.scss */
+/* line 1000, ../sass/main_styles.scss */
 .kidz-podrazdel-page .img-block {
   max-width: 170px;
   max-height: 170px;
@@ -1110,12 +1124,12 @@ footer .copyright a:hover {
   border-radius: 100%;
   border: 3px solid #e1dddb;
 }
-/* line 996, ../sass/main_styles.scss */
+/* line 1011, ../sass/main_styles.scss */
 .kidz-podrazdel-page .img-block img {
   width: 100%;
   height: 100%;
 }
-/* line 1001, ../sass/main_styles.scss */
+/* line 1016, ../sass/main_styles.scss */
 .kidz-podrazdel-page .img-title {
   margin: 0 auto;
   text-align: center;
@@ -1123,7 +1137,7 @@ footer .copyright a:hover {
   font: 400 21px / 41px 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
-/* line 1008, ../sass/main_styles.scss */
+/* line 1023, ../sass/main_styles.scss */
 .kidz-podrazdel-page .img-school-location {
   margin: 0 auto 22px;
   text-align: center;
@@ -1131,13 +1145,13 @@ footer .copyright a:hover {
   font: 700 16px / 23px 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
-/* line 1016, ../sass/main_styles.scss */
+/* line 1031, ../sass/main_styles.scss */
 .kidz-podrazdel-page .location p {
   font: 18px / 22px 'PT Sans', sans-serif;
   font-style: italic;
   color: #5a5a5a;
 }
-/* line 1022, ../sass/main_styles.scss */
+/* line 1037, ../sass/main_styles.scss */
 .kidz-podrazdel-page .study-type {
   width: 100%;
   box-sizing: border-box;
@@ -1145,7 +1159,7 @@ footer .copyright a:hover {
   margin: 20px auto;
   text-align: center;
 }
-/* line 1028, ../sass/main_styles.scss */
+/* line 1043, ../sass/main_styles.scss */
 .kidz-podrazdel-page .study-type li {
   display: block;
   width: 100%;
@@ -1153,44 +1167,44 @@ footer .copyright a:hover {
   font: 18px / 22px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 1034, ../sass/main_styles.scss */
+/* line 1049, ../sass/main_styles.scss */
 .kidz-podrazdel-page .study-type li p {
   color: #6f3186;
 }
-/* line 1037, ../sass/main_styles.scss */
+/* line 1052, ../sass/main_styles.scss */
 .kidz-podrazdel-page .study-type li span {
   color: #5a5a5a;
 }
-/* line 1042, ../sass/main_styles.scss */
+/* line 1057, ../sass/main_styles.scss */
 .kidz-podrazdel-page .program {
   font: 18px / 22px 'PT Sans', sans-serif;
 }
-/* line 1044, ../sass/main_styles.scss */
+/* line 1059, ../sass/main_styles.scss */
 .kidz-podrazdel-page .program p {
   color: #6f3186;
 }
-/* line 1047, ../sass/main_styles.scss */
+/* line 1062, ../sass/main_styles.scss */
 .kidz-podrazdel-page .program h3 {
   color: #5a5a5a;
 }
-/* line 1051, ../sass/main_styles.scss */
+/* line 1066, ../sass/main_styles.scss */
 .kidz-podrazdel-page .price {
   margin: 20px auto;
   font: 18px / 22px 'PT Sans', sans-serif;
   color: #6f3186;
   font-style: italic;
 }
-/* line 1056, ../sass/main_styles.scss */
+/* line 1071, ../sass/main_styles.scss */
 .kidz-podrazdel-page .price span {
   display: block;
 }
-/* line 1060, ../sass/main_styles.scss */
+/* line 1075, ../sass/main_styles.scss */
 .kidz-podrazdel-page .additional-service {
   font: 18px / 22px 'PT Sans', sans-serif;
   color: #6f3186;
   font-style: italic;
 }
-/* line 1065, ../sass/main_styles.scss */
+/* line 1080, ../sass/main_styles.scss */
 .kidz-podrazdel-page .additional-list {
   width: 100%;
   box-sizing: border-box;
@@ -1198,13 +1212,13 @@ footer .copyright a:hover {
   margin: 20px auto;
   text-align: center;
 }
-/* line 1071, ../sass/main_styles.scss */
+/* line 1086, ../sass/main_styles.scss */
 .kidz-podrazdel-page .additional-list li {
   display: block;
   width: 100%;
   text-align: left;
 }
-/* line 1075, ../sass/main_styles.scss */
+/* line 1090, ../sass/main_styles.scss */
 .kidz-podrazdel-page .additional-list li span {
   font: 18px / 22px 'PT Sans', sans-serif;
   color: #5a5a5a;
@@ -1212,7 +1226,7 @@ footer .copyright a:hover {
 }
 
 /*--------------------------------------*/
-/* line 1084, ../sass/main_styles.scss */
+/* line 1099, ../sass/main_styles.scss */
 .gallery-event-page {
   position: relative;
   width: 100%;
@@ -1221,7 +1235,7 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 1087, ../sass/main_styles.scss */
+/* line 1102, ../sass/main_styles.scss */
 .gallery-event-page .gallery-event-list {
   width: 100%;
   box-sizing: border-box;
@@ -1229,13 +1243,13 @@ footer .copyright a:hover {
   margin: 0 auto;
   text-align: center;
 }
-/* line 1094, ../sass/main_styles.scss */
+/* line 1109, ../sass/main_styles.scss */
 .gallery-event-page .gallery-event-list li {
   display: block;
   margin: 24px auto 33px;
   overflow: hidden;
 }
-/* line 1099, ../sass/main_styles.scss */
+/* line 1114, ../sass/main_styles.scss */
 .gallery-event-page .gallery-event-list li .img-block {
   max-width: 145px;
   max-height: 145px;
@@ -1247,12 +1261,12 @@ footer .copyright a:hover {
   border-radius: 100%;
   border: 3px solid #e1dddb;
 }
-/* line 1110, ../sass/main_styles.scss */
+/* line 1125, ../sass/main_styles.scss */
 .gallery-event-page .gallery-event-list li .img-block img {
   max-width: 100%;
   height: auto;
 }
-/* line 1116, ../sass/main_styles.scss */
+/* line 1131, ../sass/main_styles.scss */
 .gallery-event-page .gallery-event-list li .title {
   margin: 0 auto;
   text-align: center;
@@ -1263,7 +1277,7 @@ footer .copyright a:hover {
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/* line 1128, ../sass/main_styles.scss */
+/* line 1143, ../sass/main_styles.scss */
 .news-more-page {
   position: relative;
   width: 100%;
@@ -1272,11 +1286,11 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 1130, ../sass/main_styles.scss */
+/* line 1145, ../sass/main_styles.scss */
 .news-more-page .wrapper {
   padding: 0 25px;
 }
-/* line 1134, ../sass/main_styles.scss */
+/* line 1149, ../sass/main_styles.scss */
 .news-more-page .article-img {
   max-width: 267px;
   max-height: 178px;
@@ -1286,23 +1300,23 @@ footer .copyright a:hover {
   text-align: center;
   overflow: hidden;
 }
-/* line 1143, ../sass/main_styles.scss */
+/* line 1158, ../sass/main_styles.scss */
 .news-more-page .article-img img {
   max-width: 100%;
   height: auto;
 }
-/* line 1148, ../sass/main_styles.scss */
+/* line 1163, ../sass/main_styles.scss */
 .news-more-page .article-description {
   color: #908782;
   font: 400 18px / 22px 'PT Sans', sans-serif;
 }
-/* line 1152, ../sass/main_styles.scss */
+/* line 1167, ../sass/main_styles.scss */
 .news-more-page .after-title {
   margin: 20px 0;
   font: 700 18px / 22px 'PT Sans', sans-serif;
   color: red;
 }
-/* line 1157, ../sass/main_styles.scss */
+/* line 1172, ../sass/main_styles.scss */
 .news-more-page .after-description {
   padding: 15px 0;
   font: 400 18px / 22px 'PT Sans', sans-serif;
@@ -1310,13 +1324,13 @@ footer .copyright a:hover {
   border-top: 1px dotted red;
   border-bottom: 1px  dotted red;
 }
-/* line 1164, ../sass/main_styles.scss */
+/* line 1179, ../sass/main_styles.scss */
 .news-more-page .reasons-title {
   margin-top: 25px;
   font: 700 18px / 22px 'PT Sans', sans-serif;
   color: indigo;
 }
-/* line 1169, ../sass/main_styles.scss */
+/* line 1184, ../sass/main_styles.scss */
 .news-more-page .reasons-list {
   width: 100%;
   box-sizing: border-box;
@@ -1324,7 +1338,7 @@ footer .copyright a:hover {
   margin: 0 auto 19px;
   text-align: center;
 }
-/* line 1175, ../sass/main_styles.scss */
+/* line 1190, ../sass/main_styles.scss */
 .news-more-page .reasons-list li {
   display: block;
   width: 100%;
@@ -1332,18 +1346,18 @@ footer .copyright a:hover {
   overflow: hidden;
   text-align: left;
 }
-/* line 1182, ../sass/main_styles.scss */
+/* line 1197, ../sass/main_styles.scss */
 .news-more-page .reasons-list li .reasons-number {
   font: 700 18px / 22px 'PT Sans', sans-serif;
   color: indigo;
 }
-/* line 1186, ../sass/main_styles.scss */
+/* line 1201, ../sass/main_styles.scss */
 .news-more-page .reasons-list li .reasons-item {
   display: inline;
   font: 400 18px / 22px 'PT Sans', sans-serif;
   color: #908782;
 }
-/* line 1193, ../sass/main_styles.scss */
+/* line 1208, ../sass/main_styles.scss */
 .news-more-page .arrow-pagination {
   clear: both;
   box-sizing: border-box;
@@ -1352,14 +1366,14 @@ footer .copyright a:hover {
   padding: 22px 0 21px;
   border-top: 1px dotted #908782;
 }
-/* line 1200, ../sass/main_styles.scss */
+/* line 1215, ../sass/main_styles.scss */
 .news-more-page .arrow-pagination img {
   display: inline-block;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
-/* line 1206, ../sass/main_styles.scss */
+/* line 1221, ../sass/main_styles.scss */
 .news-more-page .arrow-pagination span {
   display: inline-block;
   vertical-align: middle;
@@ -1368,7 +1382,7 @@ footer .copyright a:hover {
 }
 
 /*--------------------------------------*/
-/* line 1215, ../sass/main_styles.scss */
+/* line 1230, ../sass/main_styles.scss */
 .kids-page {
   position: relative;
   width: 100%;
@@ -1377,30 +1391,35 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 1218, ../sass/main_styles.scss */
-.kids-page .article-img {
-  max-width: 163px;
-  max-height: 163px;
-  width: auto;
-  height: auto;
-  margin: 21px auto 23px;
-  text-align: center;
+/* line 1249, ../sass/main_styles.scss */
+.kids-page .school-link-list {
+  width: 100%;
+  box-sizing: border-box;
   overflow: hidden;
 }
-/* line 1227, ../sass/main_styles.scss */
-.kids-page .article-img img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 100%;
-  border: 5px solid #f2eeeb;
+/* line 1253, ../sass/main_styles.scss */
+.kids-page .school-link-list li {
+  display: block;
+  margin: 15px auto;
 }
-/* line 1234, ../sass/main_styles.scss */
+/* line 1256, ../sass/main_styles.scss */
+.kids-page .school-link-list li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 20px / 24px 'PT Sans', sans-serif;
+  color: #5a5a5a;
+}
+/* line 1262, ../sass/main_styles.scss */
+.kids-page .school-link-list li a:hover {
+  text-decoration: underline;
+}
+/* line 1268, ../sass/main_styles.scss */
 .kids-page .kids-content {
   margin-bottom: 15px;
   border-top: 1px dotted #5a5a5a;
   padding-top: 19px;
 }
-/* line 1239, ../sass/main_styles.scss */
+/* line 1273, ../sass/main_styles.scss */
 .kids-page .kids-content .education-item {
   display: block;
   margin: 0 auto 25px;
@@ -1408,7 +1427,7 @@ footer .copyright a:hover {
   font-style: italic;
   color: indigo;
 }
-/* line 1246, ../sass/main_styles.scss */
+/* line 1280, ../sass/main_styles.scss */
 .kids-page .kids-content .article-description {
   margin: 15px auto;
   font: 18px / 22px 'PT Sans', sans-serif;
@@ -1417,7 +1436,7 @@ footer .copyright a:hover {
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/* line 1255, ../sass/main_styles.scss */
+/* line 1289, ../sass/main_styles.scss */
 .contact-page {
   position: relative;
   width: 100%;
@@ -1426,23 +1445,23 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 1258, ../sass/main_styles.scss */
+/* line 1292, ../sass/main_styles.scss */
 .contact-page .address,
 .contact-page .phone {
   color: #818080;
   font: 18px / 22px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 1263, ../sass/main_styles.scss */
+/* line 1297, ../sass/main_styles.scss */
 .contact-page .address span,
 .contact-page .phone span {
   display: block;
 }
-/* line 1267, ../sass/main_styles.scss */
+/* line 1301, ../sass/main_styles.scss */
 .contact-page .address {
   margin: 24px auto 20px;
 }
-/* line 1270, ../sass/main_styles.scss */
+/* line 1304, ../sass/main_styles.scss */
 .contact-page .mapWrapper {
   position: relative;
   padding-bottom: 65.25%;
@@ -1460,7 +1479,7 @@ footer .copyright a:hover {
   width: 100%;
   height: 100%;
 }
-/* line 1274, ../sass/main_styles.scss */
+/* line 1308, ../sass/main_styles.scss */
 .contact-page .map-link {
   float: right;
   margin: 0 0 15px 0;
@@ -1468,7 +1487,7 @@ footer .copyright a:hover {
   font: 18px / 23px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 1281, ../sass/main_styles.scss */
+/* line 1315, ../sass/main_styles.scss */
 .contact-page .feedbck-form {
   width: 100%;
   box-sizing: border-box;
@@ -1476,7 +1495,7 @@ footer .copyright a:hover {
   margin: 0 auto;
   border-top: 1px dotted #b5afac;
 }
-/* line 1288, ../sass/main_styles.scss */
+/* line 1322, ../sass/main_styles.scss */
 .contact-page .feedbck-form .form-title {
   margin: 25px auto 22px;
   text-align: center;
@@ -1484,29 +1503,29 @@ footer .copyright a:hover {
   font: 22px / 23px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 1295, ../sass/main_styles.scss */
+/* line 1329, ../sass/main_styles.scss */
 .contact-page .feedbck-form ::-webkit-input-placeholder {
   color: #370909;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 1300, ../sass/main_styles.scss */
+/* line 1334, ../sass/main_styles.scss */
 .contact-page .feedbck-form :-moz-placeholder {
   /* Firefox 18- */
   color: #370909;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 1305, ../sass/main_styles.scss */
+/* line 1339, ../sass/main_styles.scss */
 .contact-page .feedbck-form ::-moz-placeholder {
   /* Firefox 19+ */
   color: #370909;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 1310, ../sass/main_styles.scss */
+/* line 1344, ../sass/main_styles.scss */
 .contact-page .feedbck-form :-ms-input-placeholder {
   color: #370909;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 1314, ../sass/main_styles.scss */
+/* line 1348, ../sass/main_styles.scss */
 .contact-page .feedbck-form .name,
 .contact-page .feedbck-form .phone,
 .contact-page .feedbck-form .email {
@@ -1525,7 +1544,7 @@ footer .copyright a:hover {
   border: 1px solid #e1ddda;
   outline: none;
 }
-/* line 1332, ../sass/main_styles.scss */
+/* line 1366, ../sass/main_styles.scss */
 .contact-page .feedbck-form .message {
   display: block;
   width: 100%;
@@ -1542,7 +1561,7 @@ footer .copyright a:hover {
   resize: none;
   border: 1px solid #e1ddda;
 }
-/* line 1348, ../sass/main_styles.scss */
+/* line 1382, ../sass/main_styles.scss */
 .contact-page .feedbck-form .submit-button {
   display: block;
   float: right;
@@ -1555,13 +1574,13 @@ footer .copyright a:hover {
   border-radius: 10px;
   outline: none;
 }
-/* line 1359, ../sass/main_styles.scss */
+/* line 1393, ../sass/main_styles.scss */
 .contact-page .feedbck-form .submit-button span {
   color: #370909;
   font: 18px / 30px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 1364, ../sass/main_styles.scss */
+/* line 1398, ../sass/main_styles.scss */
 .contact-page .feedbck-form .submit-button img {
   float: right;
   max-width: 100%;
@@ -1571,7 +1590,7 @@ footer .copyright a:hover {
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/* line 1375, ../sass/main_styles.scss */
+/* line 1409, ../sass/main_styles.scss */
 .question-form-page {
   position: relative;
   width: 100%;
@@ -1580,14 +1599,14 @@ footer .copyright a:hover {
   background-size: contain;
   background-position: center;
 }
-/* line 1377, ../sass/main_styles.scss */
+/* line 1411, ../sass/main_styles.scss */
 .question-form-page .feedbck-form {
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
   margin: 0 auto;
 }
-/* line 1383, ../sass/main_styles.scss */
+/* line 1417, ../sass/main_styles.scss */
 .question-form-page .feedbck-form .form-title {
   margin: 25px auto 22px;
   text-align: center;
@@ -1595,29 +1614,29 @@ footer .copyright a:hover {
   font: 22px / 23px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 1390, ../sass/main_styles.scss */
+/* line 1424, ../sass/main_styles.scss */
 .question-form-page .feedbck-form ::-webkit-input-placeholder {
   color: #370909;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 1395, ../sass/main_styles.scss */
+/* line 1429, ../sass/main_styles.scss */
 .question-form-page .feedbck-form :-moz-placeholder {
   /* Firefox 18- */
   color: #370909;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 1400, ../sass/main_styles.scss */
+/* line 1434, ../sass/main_styles.scss */
 .question-form-page .feedbck-form ::-moz-placeholder {
   /* Firefox 19+ */
   color: #370909;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 1405, ../sass/main_styles.scss */
+/* line 1439, ../sass/main_styles.scss */
 .question-form-page .feedbck-form :-ms-input-placeholder {
   color: #370909;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 1409, ../sass/main_styles.scss */
+/* line 1443, ../sass/main_styles.scss */
 .question-form-page .feedbck-form .name,
 .question-form-page .feedbck-form .phone,
 .question-form-page .feedbck-form .email {
@@ -1636,7 +1655,7 @@ footer .copyright a:hover {
   border: 1px solid #e1ddda;
   outline: none;
 }
-/* line 1427, ../sass/main_styles.scss */
+/* line 1461, ../sass/main_styles.scss */
 .question-form-page .feedbck-form .message {
   display: block;
   width: 100%;
@@ -1653,7 +1672,7 @@ footer .copyright a:hover {
   resize: none;
   border: 1px solid #e1ddda;
 }
-/* line 1443, ../sass/main_styles.scss */
+/* line 1477, ../sass/main_styles.scss */
 .question-form-page .feedbck-form .submit-button {
   display: block;
   float: right;
@@ -1666,13 +1685,13 @@ footer .copyright a:hover {
   border-radius: 10px;
   outline: none;
 }
-/* line 1454, ../sass/main_styles.scss */
+/* line 1488, ../sass/main_styles.scss */
 .question-form-page .feedbck-form .submit-button span {
   color: #370909;
   font: 18px / 30px 'PT Sans', sans-serif;
   font-style: italic;
 }
-/* line 1459, ../sass/main_styles.scss */
+/* line 1493, ../sass/main_styles.scss */
 .question-form-page .feedbck-form .submit-button img {
   float: right;
   max-width: 100%;
